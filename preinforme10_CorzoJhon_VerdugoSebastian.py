@@ -36,5 +36,5 @@ for x in range(0,10):
     else:
         defic = rest - uti_op_kellogs[x]
         rest = uti_op_kellogs[x]
-        por = defic/ total
-        print("El porcentaje de déficit del año",i+1,"con respecto al año posterior es de",por,"%.")
+        por = defic*100/ total
+        print("El porcentaje de déficit del año",x+1,"con respecto al año posterior es de",por,"% (Porcentaje creado en base a la sumatoria total de las utilidades).")
